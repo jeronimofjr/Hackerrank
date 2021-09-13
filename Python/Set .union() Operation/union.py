@@ -1,0 +1,5 @@
+i = input()
+ingles = set(input().split())
+f = input()
+frances = set(input().split())
+print( len(ingles.union(frances)))
