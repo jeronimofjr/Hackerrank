@@ -1,0 +1,2 @@
+SELECT  REPLICATE("* ", value)
+FROM  GENERATE_SERIES(1, 20, 1) AS value;
